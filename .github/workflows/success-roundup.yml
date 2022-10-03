@@ -1,7 +1,9 @@
 name: Success Round Up
 
 on:
-  push: success-roundup
+
+  push: 
+    branch: success-roundup
   
   schedule:
     # * is a special character in YAML so you have to quote this string
